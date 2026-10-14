@@ -92,3 +92,21 @@ body {
     background-color: #e0e0e0;
     margin-top: 40px;
 }
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* keeps everything centered horizontally */
+    gap: 20px;
+}
+
+/* Logo size */
+.logo-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Keep text left-aligned inside the header */
+.hero-text {
+    text-align: left;
+}
