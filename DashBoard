@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bauer Solutions Tracker</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#111827;
+    color:white;
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h1,h2{
+    color:#4ade80;
+}
+
+.card{
+    background:#1f2937;
+    padding:20px;
+    margin:20px 0;
+    border-radius:12px;
+}
+
+.stat{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.call{
+    background:#0f172a;
+    padding:15px;
+    margin-bottom:15px;
+    border-left:4px solid #4ade80;
+    border-radius:8px;
+}
+
+.note{
+    color:#cbd5e1;
+    margin-top:8px;
+}
+
+textarea{
+    width:100%;
+    min-height:100px;
+    background:#111827;
+    color:white;
+    border:1px solid #374151;
+    padding:10px;
+    border-radius:8px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Bauer Solutions Tracker</h1>
+
+<div class="card">
+<h2>Future Isaac Dashboard</h2>
+
+<p class="stat">Calls Made: 2</p>
+<p class="stat">Clients: 0</p>
+<p class="stat">Monthly Revenue: $0</p>
+
+<p>
+<i>
+"I wasn't confident. I wasn't ready.
+I made the call anyway."
+<br>- Isaac, Age 21
+</i>
+</p>
+</div>
+
+<div class="card">
+<h2>Lessons Learned</h2>
+
+<ul>
+<li>Ask more questions.</li>
+<li>Don't sell too early.</li>
+<li>Business owners will talk.</li>
+<li>Bookkeeping has value.</li>
+</ul>
+</div>
+
+<div class="card">
+
+<h2>Call Log</h2>
+
+<div class="call">
+<strong>Call #1</strong><br>
+Company: Brightface Renovations<br>
+Contact: Sebastian<br>
+Outcome: Already has bookkeeper<br>
+
+<div class="note">
+Lesson: Don't lead with the sale.
+Ask questions first.
+</div>
+</div>
+
+<div class="call">
+<strong>Call #2</strong><br>
+Company: Burton Remodel & Repair LLC<br>
+Contact: Chris<br>
+Outcome: Uses in-house admin<br>
+
+<div class="note">
+Interesting:
+Values employee at roughly $150/hr.
+Handles bookkeeping, marketing, and admin.
+</div>
+</div>
+
+<!-- COPY THIS BLOCK FOR NEW CALLS -->
+
+<div class="call">
+<strong>Call #3</strong><br>
+Company: ___________<br>
+Contact: ___________<br>
+Outcome: ___________<br>
+
+<div class="note">
+Lesson:
+</div>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Vision</h2>
+
+<p>
+2031.
+Beach house.
+Morning coffee.
+No guilt.
+No wondering.
+Just proof that I kept going.
+</p>
+
+<p>
+Target:
+$300,000/year recurring revenue.
+Then transition into real estate investing and private lending.
+</p>
+</div>
+
+<div class="card">
+<h2>Journal</h2>
+
+<textarea>
+10/21/2026
+
+Made my first bookkeeping cold calls.
+
+It felt awkward.
+
+I did it anyway.
+</textarea>
+
+</div>
+
+</body>
+</html>
